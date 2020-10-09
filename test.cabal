@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 643499591d6ce6070d19763e325b50c6e2d76cbf091125bdf17e6c9a8d421ad9
+-- hash: 27a4264dbf121c62f03c5ae840cd5b847fe533badfb50fa0bd45886422faea6c
 
 name:           test
 version:        0.1.0.0
@@ -45,6 +45,7 @@ executable test-exe
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , matrix
     , test
   default-language: Haskell2010
 

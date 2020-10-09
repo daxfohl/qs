@@ -35,6 +35,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - test
+    - matrix
 
 tests:
   test-test:
